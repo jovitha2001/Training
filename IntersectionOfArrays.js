@@ -1,6 +1,6 @@
 //Intersection of two arrays
-const array1 = [1, 2, 3, 5,3,4];
-const array2 = [1, 2, 3, 5,3, 6];
+const firstArray = [1, 2, 3, 5,3,4];
+const secondArray = [1, 2, 3, 5,3, 6];
 const result = [];
 const obj = {};
 for (let i = 0; i < array1.length; i++) {
@@ -13,7 +13,7 @@ for (let i = 0; i < array2.length; i++) {
         result.push(value);
     }
 }
-console.log(result); 
+return result; 
 
 
 
